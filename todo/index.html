@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" class="form">
+          <input type="text" class="todo-input" />
+        </form>
+
+        <!-- add the empty state here -->
+        <div class="empty-state">
+          <svg class="checklist-icon"><use href="#checklist-icon"></use></svg>
+          <h2 class="empty-state__title">Add your first todo</h2>
+          <p class="empty-state__description">
+            What do you want to get done today?
+          </p>
+        </div>
+        <!-- end -->
+
+        <ul class="list js-todo-list"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
