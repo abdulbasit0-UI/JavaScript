@@ -1,0 +1,13 @@
+.tasks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.task-form {
+  height: 300px;
+}
+
+.card-box {
+  margin: 1rem;
+}
