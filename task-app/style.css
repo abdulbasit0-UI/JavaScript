@@ -1,7 +1,5 @@
-.tasks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+.task-main-wrapper {
+  display: flex;
 }
 
 .task-form {
@@ -10,4 +8,20 @@
 
 .card-box {
   margin: 1rem;
+}
+
+.selected {
+  background-color: orange;
+}
+
+.completed-tasks,
+.tasks {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.completed-tasks,
+.tasks h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
 }

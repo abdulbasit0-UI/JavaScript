@@ -38,13 +38,11 @@
       </div>
     </nav>
 
-    <div class="container p-5">
+    <div class="container-fluid pt-5">
       <div class="task-wrapper d-flex justify-content-between">
-        <div class="task-form bg-light p-5" style="width: 50%">
-            <div class="error">
-                
-            </div>
-            <form class="form">
+        <div class="task-form bg-light p-5" style="width: 60%">
+          <div class="error"></div>
+          <form class="form">
             <div class="mb-2">
               <input
                 type="text"
@@ -62,9 +60,16 @@
             <button class="btn btn-primary" type="submit">Submit</button>
           </form>
         </div>
-        <div class="tasks" style="width: 100%; margin-left: 1rem"></div>
+        <div class="tasks" style="width: 100%; margin-left: 1rem">
+          <h3>Pending tasks</h3>
+        </div>
+        <div class="completed-tasks">
+          <h3>Completed Tasks</h3>
+        </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
